@@ -1,5 +1,5 @@
 A. Find top 10 countries for Rockbuster in terms of customer numbers.
-
+```
 SELECT D.country, COUNT(customer_id) AS total_customers
 	   
 FROM customer A
@@ -10,8 +10,10 @@ INNER JOIN country D ON C.country_ID = D.country_ID
 GROUP BY country
 ORDER BY COUNT(customer_id) DESC 
 LIMIT 10
+```
 
 B. Find top 10 cities within the top 10 countries identified in step 1
+```
 
 SELECT C.city,COUNT(customer_id) AS total_customers
 	   
@@ -25,9 +27,10 @@ WHERE D.country IN('India','China','United States','Japan','Mexico','Brazil','Ru
 GROUP BY C.city
 ORDER BY total_customers DESC 
 LIMIT 10
+```
 
 C. Find top 5 customers in the top 10 cities who have paid the highest total amounts to Rockbuster.
-
+```
 SELECT B.customer_id,B.last_name,B.first_name,D.city,E.country,
        SUM(amount) AS total_amount_paid
 	   
@@ -43,3 +46,4 @@ WHERE D.city IN
 GROUP BY B.customer_id,B.last_name,B.first_name,D.city,E.country
 ORDER BY total_amount_paid DESC 
 LIMIT 5
+```
