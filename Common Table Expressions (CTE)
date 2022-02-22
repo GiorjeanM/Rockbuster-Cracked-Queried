@@ -1,5 +1,5 @@
 A. Find the average amount paid by the top 5 customers using CTEs.
-
+```
 WITH total_amount_paid_cte AS
 
 (SELECT B.customer_id,B.last_name,B.first_name,D.city,E.country,
@@ -20,9 +20,10 @@ LIMIT 5)
 SELECT AVG(topfive) AS average_of_top5
 
 FROM total_amount_paid_cte
+```
 
 B. Find out how many of the top 5 customers are based within each country.
-
+```
 WITH top_5_customers_cte AS
 
 (SELECT B.customer_id,B.last_name,B.first_name,D.city,E.country,
@@ -56,7 +57,7 @@ LEFT JOIN top_5_customers_cte
 ON E.country = top_5_customers_cte.country
 GROUP BY E.country
 ORDER BY top_customer_count DESC
-
+```
 
 
 
