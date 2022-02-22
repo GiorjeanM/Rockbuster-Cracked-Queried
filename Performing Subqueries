@@ -1,5 +1,5 @@
 A. Find average amount paid by the top 5 customers.
-
+```
 SELECT SUM(topfive)/5 AS average
 FROM 
 (SELECT B.customer_id,B.last_name,B.first_name,D.city,E.country,
@@ -51,3 +51,4 @@ LIMIT 5) AS top_5_customers
 ON E.country = top_5_customers.country
 GROUP BY E.country
 ORDER BY top_customer_count DESC
+```
