@@ -12,4 +12,18 @@
 #### d. Where are customers with a high lifetime value based?
 #### e. Do sales figures vary between geographic regions?
 
-### Tableau visualization: https://public.tableau.com/shared/DYK9MMSTD?:display_count=n&:origin=viz_share_link
+## Data Set
+### Client provided Rockbuster's film inventory, customer information and payments. 
+
+## Tools Used
+### a) PostGreSql
+### b) DbVisualizer
+### c) Tableau
+
+## Coding Queries
+### a) Performing Subqueries
+### b) Joining Tables
+### c) Common Tables Expressions
+
+## Tableau Visualization
+### https://public.tableau.com/shared/DYK9MMSTD?:display_count=n&:origin=viz_share_link
