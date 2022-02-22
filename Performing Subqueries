@@ -1,3 +1,5 @@
+Link to Tableau visualization: https://public.tableau.com/shared/BFJDCD6DN?:display_count=n&:origin=viz_share_link
+
 A. Find average amount paid by the top 5 customers.
 ```
 SELECT SUM(topfive)/5 AS average
