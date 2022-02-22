@@ -11,3 +11,5 @@
 #### c. Which countries are Rockbuster customers based in?
 #### d. Where are customers with a high lifetime value based?
 #### e. Do sales figures vary between geographic regions?
+
+### Tableau visualization: https://public.tableau.com/shared/BFJDCD6DN?:display_count=n&:origin=viz_share_link
