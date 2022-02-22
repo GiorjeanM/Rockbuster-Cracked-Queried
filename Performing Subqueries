@@ -17,9 +17,11 @@ WHERE D.city IN
 GROUP BY B.customer_id,B.last_name,B.first_name,D.city,E.country
 ORDER BY topfive DESC 
 LIMIT 5)AS total_amount_paid 
+```
 
 B. Find out how many of the top 5 customers are based within each country.
 
+```
 SELECT E.country, 
        COUNT(DISTINCT B.customer_ID) AS all_customer_count,
        COUNT(DISTINCT top_5_customers) AS top_customer_count      
