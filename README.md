@@ -1,6 +1,6 @@
 <img width="600" alt="Screenshot 2022-02-21 at 11 54 46 PM" src="https://user-images.githubusercontent.com/99417572/154990094-ca142b14-2786-4cdc-bfee-f073493caf03.png">
 
-# Rockbuster Stealth Data Analysis
+# Rockbuster Stealth: Cracked & Queried
 ## Background 
 ### Rockbuster Stealth LLC is a movie rental company that used to have stores around the world. Facing stiff competition from streaming services such as Netflix and Amazon Prime, the Rockbuster Stealth management team is planning to use its existing movie licenses to launch an online video rental service in order to stay competitive.
 
