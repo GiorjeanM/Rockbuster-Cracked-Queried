@@ -25,5 +25,4 @@
 ### b) Joining Tables
 ### c) Common Tables Expressions
 
-## Tableau Visualization
-### https://public.tableau.com/shared/DYK9MMSTD?:display_count=n&:origin=viz_share_link
+## [Tableau Visualization](https://public.tableau.com/shared/DYK9MMSTD?:display_count=n&:origin=viz_share_link)
